@@ -11,9 +11,9 @@ def input_to_index (user_input)
   user_input.to_i-1
 end
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def move (board, user_input, player_character = "X")
   board[user_input] = player_character
   puts board
 end
-
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
