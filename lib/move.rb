@@ -12,6 +12,6 @@ def input_to_index (user_input)
 end
 
 def move (board, user_input, player_character = "X")
-  board[user_input] = value
+#  board[user_input] = value
   puts board
 end
