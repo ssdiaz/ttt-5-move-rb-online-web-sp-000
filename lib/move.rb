@@ -13,7 +13,7 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def move (board, input, player_character = "X")
-  board[input] = player_character
+def move (board, input, character = "X")
+  board[input] = character
   puts board
 end
