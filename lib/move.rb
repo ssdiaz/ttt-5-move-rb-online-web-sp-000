@@ -14,7 +14,7 @@ end
 
 #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def move (board, input, character = "X")
-  board[input] = character
+def move (board, string, character = "X")
+  board[string] = character
   #puts board
 end
