@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 
 def input_to_index (input)
   input.to_i-1
@@ -18,3 +18,5 @@ def move (board, input, character = "X")
   board[input] = character
   puts board
 end
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
