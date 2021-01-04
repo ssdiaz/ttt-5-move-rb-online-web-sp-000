@@ -14,6 +14,6 @@ end
 
 #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def move (board, index, character = "X")
-  board[index] = character
+def move (board, index, player = "X")
+  board[index] = player
 end
